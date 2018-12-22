@@ -126,6 +126,9 @@
           }
         }
       },
+      "foreach/1.0.5": {
+        "type": "package"
+      },
       "Humanizer.Core/2.4.2": {
         "type": "package",
         "compile": {
@@ -573,6 +576,27 @@
         "tools/install.ps1"
       ]
     },
+    "foreach/1.0.5": {
+      "sha512": "eftOC0uIJxqXWlSnGJMaRu5bbGaP6iOC/OUUprqHQ58mrDnd+Q+0w6ljwDO+4hQDnGXt2XJ6hjSkgl6i+LWFtA==",
+      "type": "package",
+      "path": "foreach/1.0.5",
+      "files": [
+        ".signature.p7s",
+        "foreach.1.0.5.nupkg.sha512",
+        "foreach.nuspec",
+        "tools/netcoreapp2.1/any/CliWrap.dll",
+        "tools/netcoreapp2.1/any/Colorful.Console.dll",
+        "tools/netcoreapp2.1/any/CommandLineArgumentsParser.dll",
+        "tools/netcoreapp2.1/any/DocoptNet.dll",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/Foreach.deps.json",
+        "tools/netcoreapp2.1/any/Foreach.dll",
+        "tools/netcoreapp2.1/any/Foreach.pdb",
+        "tools/netcoreapp2.1/any/Foreach.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/netcoreapp2.1/any/contessa.flf"
+      ]
+    },
     "Humanizer.Core/2.4.2": {
       "sha512": "A8amPZrfrFU+6BO+t/NLejofWah39XsRuovQqaHdYYtXANM+dexMrc+AbLmuH3qNV4hJv6FArBsBBtZcaODLZg==",
       "type": "package",
@@ -930,7 +954,8 @@
       "UiPath.Excel.Activities >= 2.4.6884.25683 <= 2.4.6884.25683",
       "UiPath.Mail.Activities >= 1.2.6863.29868 <= 1.2.6863.29868",
       "UiPath.System.Activities >= 18.4.1 <= 18.4.1",
-      "UiPath.UIAutomation.Activities >= 18.4.1 <= 18.4.1"
+      "UiPath.UIAutomation.Activities >= 18.4.1 <= 18.4.1",
+      "foreach >= 1.0.5 <= 1.0.5"
     ]
   },
   "packageFolders": {
@@ -938,11 +963,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Sample",
-      "projectName": "Sample",
-      "projectPath": "C:\\Users\\jvargasp\\Documents\\RPA-UIPATH\\Sample\\Sample\\.local",
+      "projectUniqueName": "CortesSAYA",
+      "projectName": "CortesSAYA",
+      "projectPath": "C:\\Users\\jvargasp\\Documents\\Archivos MAAJI\\Otros\\UIPath RPA\\CortesSAYA\\.local",
       "packagesPath": "C:\\Users\\jvargasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jvargasp\\Documents\\RPA-UIPATH\\Sample\\Sample\\.local"
+      "outputPath": "C:\\Users\\jvargasp\\Documents\\Archivos MAAJI\\Otros\\UIPath RPA\\CortesSAYA\\.local"
     },
     "frameworks": {
       "net461": {
@@ -966,9 +991,34 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[18.4.1, 18.4.1]"
+          },
+          "foreach": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.5, 1.0.5]"
           }
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package foreach 1.0.5 is not compatible with net461 (.NETFramework,Version=v4.6.1). Package foreach 1.0.5 supports: netcoreapp2.1 (.NETCoreApp,Version=v2.1) / any",
+      "libraryId": "foreach",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1212",
+      "level": "Error",
+      "message": "Invalid project-package combination for foreach 1.0.5. DotnetToolReference project style can only contain references of the DotnetTool type ",
+      "libraryId": "foreach",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    }
+  ]
 }

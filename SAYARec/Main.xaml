@@ -1,0 +1,171 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" mva:VisualBasic.Settings="{x:Null}"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:ui="http://schemas.uipath.com/workflow/activities"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Basic">
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="8" OffsetY="5" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="32db0bc5b4f379b2bb408cdd84ac8603" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl aaname='Nuevo' tag='IMG' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_1</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  nombreEstiloClas...'" EmptyField="False" SendWindowMessages="False" SimulateType="True" Text="meteorito">
+      <ui:TypeInto.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="091576ab387144be0c46b288aeb1dcf6" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='nombreEstiloClassFusionFactory' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+      </ui:TypeInto.Target>
+      <sap2010:WorkflowViewState.IdRef>TypeInto_1</sap2010:WorkflowViewState.IdRef>
+    </ui:TypeInto>
+    <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  nombreColor'" EmptyField="False" SendWindowMessages="False" SimulateType="True" Text="e-001">
+      <ui:TypeInto.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="1cc0ac06005758626c803c2e8994445b" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='nombreColor' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+      </ui:TypeInto.Target>
+      <sap2010:WorkflowViewState.IdRef>TypeInto_2</sap2010:WorkflowViewState.IdRef>
+    </ui:TypeInto>
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'ACRONYM'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="17" OffsetY="11" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="3c0374bfdd321febb59c5f54bdd4fe7f" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;acronym' tag='ACRONYM' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_2</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo0'" EmptyField="False" SendWindowMessages="False" SimulateType="True" Text="http://www.url1.com">
+      <ui:TypeInto.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c199ed641d44cdf1abb6384016a48a13" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagenEstilo0' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+      </ui:TypeInto.Target>
+      <sap2010:WorkflowViewState.IdRef>TypeInto_3</sap2010:WorkflowViewState.IdRef>
+    </ui:TypeInto>
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LABEL'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="7" OffsetY="15" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6c54d5f1625d484a0f8aaa8b2462fda5" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl parentid='div_chckDeterminanteEstilo_check0' tag='LABEL' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_3</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  btnAdicionarImage...'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="14" OffsetY="11" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8a9baf3ea73950e2a9d512c6d4edb1fd" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarImagenEstilo' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_4</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo1'" EmptyField="False" SendWindowMessages="False" SimulateType="True" Text="http://www.url2.com">
+      <ui:TypeInto.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="885aea7d389059a3fbcaa67466363fd0" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagenEstilo1' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+      </ui:TypeInto.Target>
+      <sap2010:WorkflowViewState.IdRef>TypeInto_4</sap2010:WorkflowViewState.IdRef>
+    </ui:TypeInto>
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'HTML '" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="1279" OffsetY="155" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="392204561b35bd707cf94e45edd98f54" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl tag='HTML' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_5</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  btnAdicionarCorte'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="12" OffsetY="11" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="714b370a00d84b54a50399e100a407f3" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarCorte' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_6</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  btnAdicionarCorte'" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition OffsetX="11" OffsetY="7" Position="TopLeft" />
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="2b2428cf4a6a23a20a684f8eb6712586" Selector="&lt;html app='firefox.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarCorte' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
+      </ui:Click.Target>
+      <sap2010:WorkflowViewState.IdRef>Click_7</sap2010:WorkflowViewState.IdRef>
+    </ui:Click>
+    <sap2010:WorkflowViewState.IdRef>Sequence_1</sap2010:WorkflowViewState.IdRef>
+    <sads:DebugSymbol.Symbol>dzRDOlxVc2Vyc1xqYWd1ZGVsb1xEb2N1bWVudHNcVWlQYXRoXFNBWUFSZWNcTWFpbi54YW1sKTgDkgEOAgEBOQVBEAIBJkIFRxMCASNIBU0TAgEgTgVWEAIBHFcFXBMCARldBWUQAgEVZgVuEAIBEW8FdBMCAQ51BX0QAgEKfgWGARACAQaHAQWPARACAQI+mAE+qAICASk7MDszAgEoOyQ7JwIBJ0SYAUS/AgIBJUL+AUKJAgIBJEqYAUqsAgIBIkj2AUj9AQIBIVOYAVPSAwIBH1AxUDUCAR5QJFAoAgEdWZgBWa4CAgEbV/gBV40CAgEaYpgBYsgCAgEYXzBfNAIBF18kXycCARZrmAFruAICARRoMWg1AgETaCRoKAIBEnGYAXGuAgIBEG/4AW+NAgIBD3qYAXqaAgIBDXczdzgCAQx3JHcqAgELgwGYAYMBsQICAQmAATGAATUCAQiAASSAASgCAQeMAZgBjAGxAgIBBYkBMYkBNAIBBIkBJIkBKAIBAw==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="Click_1" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="TypeInto_1" sap:VirtualizedContainerService.HintSize="314,134" />
+      <sap2010:ViewStateData Id="TypeInto_2" sap:VirtualizedContainerService.HintSize="314,134" />
+      <sap2010:ViewStateData Id="Click_2" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="TypeInto_3" sap:VirtualizedContainerService.HintSize="314,134" />
+      <sap2010:ViewStateData Id="Click_3" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Click_4" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="TypeInto_4" sap:VirtualizedContainerService.HintSize="314,134" />
+      <sap2010:ViewStateData Id="Click_5" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Click_6" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Click_7" sap:VirtualizedContainerService.HintSize="314,106" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,1802">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,1922" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

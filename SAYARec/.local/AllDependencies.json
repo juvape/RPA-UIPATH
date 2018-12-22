@@ -934,15 +934,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jvargasp\\.nuget\\packages\\": {}
+    "C:\\Users\\jagudelo\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Sample",
-      "projectName": "Sample",
-      "projectPath": "C:\\Users\\jvargasp\\Documents\\RPA-UIPATH\\Sample\\Sample\\.local",
-      "packagesPath": "C:\\Users\\jvargasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jvargasp\\Documents\\RPA-UIPATH\\Sample\\Sample\\.local"
+      "projectUniqueName": "SAYARec",
+      "projectName": "SAYARec",
+      "projectPath": "C:\\Users\\jagudelo\\Documents\\UiPath\\SAYARec\\.local",
+      "packagesPath": "C:\\Users\\jagudelo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jagudelo\\Documents\\UiPath\\SAYARec\\.local"
     },
     "frameworks": {
       "net461": {
