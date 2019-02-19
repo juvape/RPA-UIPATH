@@ -940,9 +940,9 @@
     "restore": {
       "projectUniqueName": "Sample",
       "projectName": "Sample",
-      "projectPath": "C:\\Users\\jvargasp\\Documents\\Archivos MAAJI\\Otros\\UIPath RPA\\Sample\\Sample\\.local",
+      "projectPath": "C:\\Users\\jvargasp\\Documents\\Archivos MAAJI\\Otros\\UIPath RPA\\Sample_2\\Sample\\.local",
       "packagesPath": "C:\\Users\\jvargasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jvargasp\\Documents\\Archivos MAAJI\\Otros\\UIPath RPA\\Sample\\Sample\\.local"
+      "outputPath": "C:\\Users\\jvargasp\\Documents\\Archivos MAAJI\\Otros\\UIPath RPA\\Sample_2\\Sample\\.local"
     },
     "frameworks": {
       "net461": {
