@@ -109,7 +109,7 @@
                       <Sequence x:Key="0" sap2010:WorkflowViewState.IdRef="Sequence_5">
                         <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  filter-value-nom...'" EmptyField="True" sap2010:WorkflowViewState.IdRef="TypeInto_11" SendWindowMessages="False" SimulateType="False" Text="[Row(Col.ToString).ToString]">
                           <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9cbe41db33c64597ca1efc4e9085ee38" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='filter-value-nombreEstiloClassFusionFactory' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="fcc8f2d1f5a4cea29f1b640024f0392a" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='filter-value-codigoAlternoProducto' tag='INPUT' /&gt;" WaitForReady="COMPLETE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
                         <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:;'" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
@@ -124,7 +124,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="8e9106aaca3df206a36280ba47c51eb4" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl aaname='Name Style' tag='A' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="d1c1d0c9e73c0cd272220d02221df261" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl aaname='Product Code' tag='A' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:Click.Target>
                         </ui:Click>
                         <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG'" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
@@ -139,15 +139,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="408338bed555aa5dc3b92d3ffefbd3f6" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl aaname='Modificar' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
-                          </ui:Click.Target>
-                        </ui:Click>
-                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  btnAdicionarImage...'" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
-                          <ui:Click.CursorPosition>
-                            <ui:CursorPosition OffsetX="7" OffsetY="9" Position="TopLeft" />
-                          </ui:Click.CursorPosition>
-                          <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="77db9f88df7d038facd5da07b497d4b1" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarImagenEstilo' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="187ff49d83951efe8f8b37487c5fa064" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl aaname='Modificar' tableRow='2' tag='IMG' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:Click.Target>
                         </ui:Click>
                       </Sequence>
@@ -155,39 +147,32 @@
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Default="checked" Name="check" />
                         </Sequence.Variables>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo0'" EmptyField="True" sap2010:WorkflowViewState.IdRef="TypeInto_10" SendWindowMessages="False" SimulateType="False" Text="[Row(Col.ToString).ToString]">
-                          <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="f10c870c9fb3e77698e2a2edf9b3ea0b" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagenEstilo0' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
-                          </ui:TypeInto.Target>
-                        </ui:TypeInto>
-                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LABEL'" sap2010:WorkflowViewState.IdRef="Click_17" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  btnAdicionarImage...'" sap2010:WorkflowViewState.IdRef="Click_21" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
                           <ui:Click.CursorPosition>
-                            <ui:CursorPosition Position="Center">
-                              <ui:CursorPosition.OffsetX>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:CursorPosition.OffsetX>
-                              <ui:CursorPosition.OffsetY>
-                                <InArgument x:TypeArguments="x:Int32" />
-                              </ui:CursorPosition.OffsetY>
-                            </ui:CursorPosition>
+                            <ui:CursorPosition OffsetX="10" OffsetY="6" Position="TopLeft" />
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="4df48ee8fe85acb5358d83bcf7aa86cf" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl parentid='div_chckDeterminanteEstilo_check0' tag='LABEL' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9ad8fc451f774ac6df410981105b07bf" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
                           </ui:Click.Target>
                         </ui:Click>
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo0'" EmptyField="True" sap2010:WorkflowViewState.IdRef="TypeInto_10" SendWindowMessages="False" SimulateType="False" Text="[Row(Col.ToString).ToString]">
+                          <ui:TypeInto.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0909f1e9191efd245a4c2a23008ac18f" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagen0' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                          </ui:TypeInto.Target>
+                        </ui:TypeInto>
                       </Sequence>
                       <Sequence x:Key="2" sap2010:WorkflowViewState.IdRef="Sequence_14">
                         <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  btnAdicionarImage...'" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
                           <ui:Click.CursorPosition>
-                            <ui:CursorPosition OffsetX="9" OffsetY="7" Position="TopLeft" />
+                            <ui:CursorPosition OffsetX="8" OffsetY="13" Position="TopLeft" />
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="acba89abc804c978df56af5cb5652ad2" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarImagenEstilo' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9ad8fc451f774ac6df410981105b07bf" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
                           </ui:Click.Target>
                         </ui:Click>
                         <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo1'" EmptyField="True" sap2010:WorkflowViewState.IdRef="TypeInto_18" SendWindowMessages="False" SimulateType="False" Text="[Row(Col.ToString).ToString]">
                           <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ccd998701f557e988acbdc291c9b1d4e" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagenEstilo1' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7e4494fe2700ee8f37a50c72f7774ae0" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagen1' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
                       </Sequence>
@@ -204,12 +189,12 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b9629c8b892c76fa178dffbc19e9a5f3" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarImagenEstilo' tag='SPAN' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9ad8fc451f774ac6df410981105b07bf" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:Click.Target>
                         </ui:Click>
                         <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo2'" EmptyField="True" sap2010:WorkflowViewState.IdRef="TypeInto_20" SendWindowMessages="False" SimulateType="False" Text="[Row(Col.ToString).ToString]">
                           <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="5483d7f47b969437ade6be904a313d37" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagenEstilo2' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bb3ccb6d0705d007df12ad828b8bd3df" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagen2' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
                       </Sequence>
@@ -226,12 +211,12 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="b9629c8b892c76fa178dffbc19e9a5f3" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnAdicionarImagenEstilo' tag='SPAN' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="9ad8fc451f774ac6df410981105b07bf" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl tag='SPAN' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:Click.Target>
                         </ui:Click>
                         <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'INPUT  imagenEstilo3'" EmptyField="True" sap2010:WorkflowViewState.IdRef="TypeInto_21" SendWindowMessages="False" SimulateType="False" Text="[Row(Col.ToString).ToString]">
                           <ui:TypeInto.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="55c9222c1b9e9ef0887a52949282a468" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagenEstilo3' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="bb3ccb6d0705d007df12ad828b8bd3df" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='imagen3' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
                         <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  btnActualizarIma...'" sap2010:WorkflowViewState.IdRef="Click_16" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
@@ -246,11 +231,11 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c7f16d9a558ad7590e77b3afc2e0a573" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='btnActualizarImagenEstilo' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="887176906676e597aa4b6733a5585405" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;&lt;webctrl id='inferior' tag='IFRAME' /&gt;&lt;webctrl id='grabar' tag='INPUT' type='button' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:Click.Target>
                         </ui:Click>
-                        <Delay Duration="00:00:25" sap2010:WorkflowViewState.IdRef="Delay_4" />
-                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe ART'" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="19f6116d45dcd55ea3b02d0a3c7b9742" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;" UiBrowser="[navegador]">
+                        <Delay Duration="00:00:15" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe ART'" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="afbedff798f8efe3c053477150da3875" Selector="&lt;html app='chrome.exe' title='ART MODE S.A.S.' /&gt;" UiBrowser="[navegador]">
                           <ui:BrowserScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -280,7 +265,7 @@
         </ActivityAction>
       </ui:ForEach.Body>
     </ui:ForEach>
-    <sads:DebugSymbol.Symbol>d1VDOlxVc2Vyc1xqdmFyZ2FzcFxEb2N1bWVudHNcQXJjaGl2b3MgTUFBSklcT3Ryb3NcVUlQYXRoIFJQQVxTYW1wbGVcU2FtcGxlXFNhbXBsZS54YW1sS0EDnAIOAgEBRDNENgIBAkcFUiACAUtTBZoCEgIBA0ewAUfDAQIBUk0LTxYCAUxTkgFTnQECAUpZC5cCFgIBBE4NTrIBAgFNWg1hFgIBRmINlgIaAgEFTjxOQgIBUE6VAU6aAQIBT06lAU6vAQIBTl83XzgCAUlcOFxGAgFHYpgBYqYBAgFFaBOTAh4CAQZpFYoCHgIBDIsCFZICHgIBB2lXaWcCAQ1tF5kBIgIBOZoBF7IBIgIBMrMBF8EBIgIBKsIBF9cBIgIBJNgBF4kCIgIBEWsZa4oBAgEPkAI/kAJRAgEKjQJAjQJOAgEIbhlyJwIBQnMZgQEkAgFAggEZkAEkAgE+kQEZmAEkAgE6nAFInAFRAgEzngEZogEnAgE2owEZsQEkAgE0tAEZuwEkAgEuvAEZwAEnAgErwwEZ0QEkAgEo0gEZ1gEnAgEl2QEZ5wEkAgEi6AEZ7AEnAgEf7QEZ+wEkAgEd/AEZ/AFgAgEb/QEZiAIrAgESa3BrhwECARBwrAFw3wICAURuwAJu3gICAUN/rAF/vgICAUGOAawBjgG/AgIBP5YBrAGWAcsCAgE9kwFEkwFHAgE8kwE4kwE7AgE7oAGsAaABwQICATieAboCngHYAgIBN68BrAGvAdsCAgE1uQGsAbkBywICATG2AUS2AUcCATC2ATi2ATsCAS++AawBvgHBAgIBLbwBugK8AdgCAgEszwGsAc8BywICASnUAawB1AHBAgIBJ9IBugLSAdgCAgEm5QGsAeUBywICASPqAawB6gHBAgIBIegBugLoAdgCAgEg+QGsAfkBzQICAR78ASn8ATMCARz9AZ8C/QHYAgIBGv0B4wL9AfACAgEYgwIfhQIqAgEThAIhhAKcAQIBFIQCUoQCWAIBF4QCNIQCQQIBFQ==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d1dDOlxVc2Vyc1xqdmFyZ2FzcFxEb2N1bWVudHNcQXJjaGl2b3MgTUFBSklcT3Ryb3NcVUlQYXRoIFJQQVxTYW1wbGVfMlxTYW1wbGVcU2FtcGxlLnhhbWxJQQONAg4CAQFEM0Q2AgECRwVSIAIBSVMFiwISAgEDR7ABR8MBAgFQTQtPFgIBSlOSAVOdAQIBSFkLiAIWAgEETg1OsgECAUtaDWEWAgFEYg2HAhoCAQVOPE5CAgFOTpUBTpoBAgFNTqUBTq8BAgFMXzdfOAIBR1w4XEYCAUVimAFipgECAUNoE4QCHgIBBmkV+wEeAgEM/AEVgwIeAgEHaVdpZwIBDW0XkQEiAgE7kgEXowEiAgEypAEXsgEiAgEqswEXyAEiAgEkyQEX+gEiAgERaxlrigECAQ+BAj+BAlECAQr+AUD+AU4CAQhuGXInAgFAcxmBASQCAT6CARmQASQCATyUAUiUAVECATOWARmdASQCATeeARmiAScCATSlARmsASQCAS6tARmxAScCASu0ARnCASQCASjDARnHAScCASXKARnYASQCASLZARndAScCAR/eARnsASQCAR3tARntAWACARvuARn5ASsCARJrcGuHAQIBEHCsAXDWAgIBQm7AAm7eAgIBQX+sAX/AAgIBP44BrAGOAcwCAgE9mwGsAZsBrQICATqYAUWYAUgCATmYATiYATwCATigAawBoAG7AgIBNp4BugKeAdgCAgE1qgGsAaoBrQICATGnAUSnAUgCATCnATinATsCAS+vAawBrwG7AgIBLa0BugKtAdgCAgEswAGsAcABrQICASnFAawBxQG7AgIBJ8MBugLDAdgCAgEm1gGsAdYBrQICASPbAawB2wG7AgIBIdkBugLZAdgCAgEg6gGsAeoByAICAR7tASntATMCARzuAZ8C7gHYAgIBGu4B4wLuAfACAgEY9AEf9gEqAgET9QEh9QGcAQIBFPUBUvUBWAIBF/UBNPUBQQIBFQ==</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -299,16 +284,15 @@
       <sap2010:ViewStateData Id="TypeInto_11" sap:VirtualizedContainerService.HintSize="314,134" />
       <sap2010:ViewStateData Id="Click_11" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="Click_8" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="Click_4" sap:VirtualizedContainerService.HintSize="314,106" />
-      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="336,696">
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="336,550">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_21" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="TypeInto_10" sap:VirtualizedContainerService.HintSize="314,134" />
-      <sap2010:ViewStateData Id="Click_17" sap:VirtualizedContainerService.HintSize="314,106" />
       <sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="336,404">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -386,7 +370,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sample_1" sap:VirtualizedContainerService.HintSize="616,2493.33333333333" />
+      <sap2010:ViewStateData Id="Sample_1" sap:VirtualizedContainerService.HintSize="616,2533.33333333333" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
